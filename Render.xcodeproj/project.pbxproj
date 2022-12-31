@@ -37,8 +37,8 @@
 		D2996B072809FC9B001BC93A /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 		D2996B0A2809FCCE001BC93A /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		D2996B0D280A0B70001BC93A /* Render (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Render (iOS).entitlements"; sourceTree = "<group>"; };
+		D2F73964295FE12B00DF4BB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2FFB43828A4663400078FF2 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		D2FFB43928A4A01B00078FF2 /* RenderQuickStart.tutorial */ = {isa = PBXFileReference; lastKnownFileType = text; path = RenderQuickStart.tutorial; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,17 +62,8 @@
 		D2996ADD2808B8D1001BC93A = {
 			isa = PBXGroup;
 			children = (
-				D2FFB43928A4A01B00078FF2 /* RenderQuickStart.tutorial */,
+				D2F73964295FE12B00DF4BB9 /* README.md */,
 				D2996B0D280A0B70001BC93A /* Render (iOS).entitlements */,
-				D2996AE22808B8D2001BC93A /* Shared */,
-				D2996AF12808B8D7001BC93A /* macOS */,
-				D2996AEB2808B8D7001BC93A /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		D2996AE22808B8D2001BC93A /* Shared */ = {
-			isa = PBXGroup;
-			children = (
 				D2996AE32808B8D2001BC93A /* RenderApp.swift */,
 				D2996AE42808B8D2001BC93A /* ContentView.swift */,
 				D2996B0A2809FCCE001BC93A /* Text.swift */,
@@ -81,8 +72,9 @@
 				D22B6EF1282845F1005979A9 /* ViewRenderer.swift */,
 				D2996B072809FC9B001BC93A /* Canvas.swift */,
 				D2996AE52808B8D7001BC93A /* Assets.xcassets */,
+				D2996AF12808B8D7001BC93A /* macOS */,
+				D2996AEB2808B8D7001BC93A /* Products */,
 			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		D2996AEB2808B8D7001BC93A /* Products */ = {
